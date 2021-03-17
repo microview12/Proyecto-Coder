@@ -4,7 +4,11 @@ body {
   background-color: #FFF4E8; }
 
 p {
-  font-size: 20px; }
+  font-size: 20px; 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
 
 ul {
   list-style: none; }
@@ -47,6 +51,15 @@ h1 {
   align-items: center;
   flex-direction: column; }
 
-.imagencarousel {
-  align-items: center; 
+.carousel {
+  padding-bottom: 80px;
 }
+
+.calendario {
+  display: flex;
+  aling-items: center;
+  justify-content: center; }
+
+  .piedepagina {
+    font-style: serif;
+  }
